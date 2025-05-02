@@ -1,0 +1,510 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: serif;
+}
+
+
+main {
+
+    .part2 {
+
+        >.tree_card {
+            >div {
+                height: 120px;
+
+                &:nth-of-type(1) {
+                    background-color: #3D474E;
+                }
+
+                &:nth-of-type(2) {
+                    background-color: #636B71;
+                }
+
+                &:nth-of-type(3) {
+                    background-color: #777E83;
+                }
+            }
+        }
+    }
+
+    .part3 {
+        background-color: #3D474E;
+    }
+    
+    /* .prat4{
+                                
+    } */
+
+    .part6 {
+        background-color: #3D474E;
+    }
+
+    .part8 {
+        background-color: #EBECED;
+        transition: .6s;
+
+        &:hover {
+            background-color: #333C42;
+
+        }
+
+        >div {
+            >div {
+                a {
+                    color: #272e33;
+                    transition: .6s;
+                    text-decoration: none;
+
+                    &:hover {
+                        letter-spacing: 4px;
+                        color: white;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .my_footer {
+        background-color: #3d474e;
+
+    }
+}
+
+
+/* class */
+
+.my_p_prat2 {
+    font-size: 200px;
+    font-family: serif;
+    color: #3D474E;
+
+}
+
+.my_p2_prat2 {
+    font-size: 80px;
+    font-family: serif;
+    transform: translate(-190px, 120px);
+    color: #3D474E;
+}
+
+.paragraph {
+    >h2 {
+        font-family: serif;
+        color: #3D474E;
+        font-size: 40px;
+    }
+
+    >p {
+        font-family: serif;
+        color: rgb(105, 105, 105);
+        font-size: 20px;
+
+
+    }
+
+
+    >button {
+        transition: 0.5s;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3D474E;
+        border-radius: 1px;
+
+        &:hover {
+            background-color: #3D474E;
+            color: white;
+        }
+    }
+}
+
+.div_width {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+}
+
+.my-card {
+
+    >img {
+        border-radius: 10px;
+        filter: brightness(0.5);
+        transition: .5s;
+
+        &:hover {
+            filter: brightness(80%);
+
+        }
+    }
+
+}
+
+.p_card {
+    color: white;
+    font-size: 40px;
+    transform: translatey(-180px);
+    filter: brightness(1);
+    /* z-index: -11; */
+}
+
+.my_h3 {
+    transform: rotate(-25deg);
+}
+
+.my_div_part6 {
+    background-color: #333C42;
+    padding: 30px;
+
+
+    transition: .4s;
+
+    &:hover {
+        transform: translateY(-10px);
+        background-color: #272e33;
+    }
+
+    >h4 {
+        font-size: 30px;
+    }
+
+    >p {
+        color: #777E83;
+    }
+}
+
+
+.four_card_part7 {
+    >div {
+        >figure {
+            >img {
+                border: 6px solid #3D474E;
+            }
+        }
+    }
+}
+
+.div_menu {
+    width: 60%;
+    height: 1px;
+    background-color: #adadad;
+
+}
+
+.div_menu1 {
+    color: #adadad;
+}
+
+.a_footer {
+    text-decoration: none;
+    transition: .5s;
+
+    &:hover {
+        transform: translateX(5px);
+
+    }
+
+    p {
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(172, 172, 172);
+        transition: .5s;
+
+
+        &:hover {
+            color: rgb(143, 143, 143);
+        }
+    }
+}
+
+.my_div_icon {
+    >div {
+        cursor: pointer;
+        transition: .8s;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        >i {
+            transition: .8s;
+
+            &:hover {
+                transform: scaleX(50deg);
+                background-color: rgb(54, 122, 122);
+            }
+
+        }
+    }
+}
+
+
+/* siwper */
+
+/* prat1 */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .div-logo {
+        position: absolute;
+        top: 5%;
+        left: 50px;
+
+    }
+
+    >h1 {
+        position: absolute;
+        top: 30%;
+        left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        user-select: none;
+        transition: .9s;
+    }
+
+    >p {
+        color: darkgray;
+        display: none;
+        position: absolute;
+        text-align: left;
+        font-size: 20px;
+        font-family: sans-serif;
+        letter-spacing: 1.5px;
+        user-select: none;
+        transition: .9s;
+    }
+
+    >button {
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        background-color: rgb(202, 200, 197);
+        font-family: fantasy;
+        font-size: 15px;
+        transition: .5s;
+        border-radius: 2px;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    >h2 {
+
+        position: absolute;
+        top: 30%;
+        right: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Times New Roman',
+            Times,
+            serif;
+        user-select: none;
+        transition: .9s;
+    }
+
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+
+/* prat3 */
+/* .swiper {
+    width: 100%;
+    height: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: grab;
+} */
+/* prat3 */
+
+
+
+/* scrollBtn */
+#scrollBtn {
+    border: 2px solid #575f64;
+    position: fixed;
+    z-index: 99;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: conic-gradient(#3d474e 0% 0%, #ddd 0% 100%);
+    padding: 10px;
+}
+
+#scrollBtn div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #d7dbdd;
+    border: 2px solid #3d474e;
+}
+
+/* scrollBtn */
+
+
+
+/* res */
+
+@media screen and (min-width: 576px) {
+    .swiper-slide {
+        h1 {
+            font-size: 30px;
+            left: 20px;
+            top: 20%;
+        }
+
+        p {
+            display: block;
+            top: 30%;
+            left: 20px;
+            width: 350px;
+            font-size: 10px;
+        }
+
+        >button {
+            top: 60%;
+        }
+
+        h2 {
+            top: 30%;
+            right: 40px;
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-slide {
+        h1 {
+            font-size: 35px;
+            left: 40px;
+        }
+
+        p {
+            top: 30%;
+            left: 40px;
+            font-size: 14px;
+        }
+
+        >button {
+            top: 65%;
+        }
+
+        h2 {
+            top: 30%;
+            right: 60px;
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .swiper-slide {
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        p {
+            width: 500px;
+            font-size: 16px;
+        }
+
+        >button {
+            top: 57%;
+        }
+
+        h2 {
+            top: 30%;
+            right: 85px;
+            font-size: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .swiper-slide {
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            width: 650px;
+            font-size: 18px;
+        }
+
+        >button {
+            top: 50%;
+        }
+
+        h2 {
+            top: 30%;
+            right: 85px;
+            font-size: 60px;
+        }
+    }
+
+}
